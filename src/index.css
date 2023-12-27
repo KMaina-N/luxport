@@ -1,3 +1,6 @@
+@import 'bulma/css/bulma.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,165 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.custom-section-1 {
+  max-height: 20px !important;
+}
+
+.image-banner {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+.logo-image {
+  max-height: 100px !important; /* Adjust the height as needed */
+  width: auto;
+}
+
+.custom-dropdown-width {
+  width: 1000%; /* Adjust the width as needed */
+  background-color: #fff;
+  opacity: 0.95;
+}
+
+
+
+.buy-title {
+  margin-left: 10px 
+}
+
+.featured-images {
+  display: flex;
+  margin-top: 5%;
+}
+
+.featured-image {
+  margin: 0 10px;
+  opacity: 1 !important;
+}
+
+.featured-image p {
+  /* text-align: center; */
+  margin-bottom: 10px;
+}
+
+.featured-image img {
+  min-height: 150px;
+  min-width: 250px;
+  border-radius: 5px;
+}
+
+.container {
+  width: 55% !important
+}
+
+.filter-container {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  gap: 23%
+}
+
+.range-slider {
+  display: flex;
+}
+
+.contact .contact-us {
+  float: right;
+  background-color: #f06a11;
+  padding: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+.filter-line {
+  width: 100% !important;
+  align-items: center;
+  border: 1px solid #f06a11;
+}
+
+.branding-line {
+  border: 1px solid green;
+  width: 15%
+}
+
+/* YachtGrid.css */
+.yacht-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.yatchs .subtitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+}
+
+.yacht {
+  width: 28%; 
+  display: block;
+  min-height: 450px;
+  /* height: 70px !important;  */
+  margin-top: 20px;
+  margin-bottom: 30px; /* Adjust as needed */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: transform 0.8s ease;
+}
+
+.yacht:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.yacht img {
+  width: 100%;
+  height: 200px !important;
+  /* height: auto; */
+}
+
+
+.yacht .yacht-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  margin-left: 5%;
+}
+
+.yacht .branding-line {
+  margin-left: 5%;
+}
+
+.yacht .yacht-specs {
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.yacht .yacht-spec {
+  font-size: 16px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.yacht .yacht-spec-value {
+  padding-left: 20%;
+  float: right !important;
+}
+
+.sort-by {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.sort-by .select select{
+  width: 200px;
+  opacity: 0.95;
+}
+
+.sort-by.field {
+  padding-top: 20px;
 }
